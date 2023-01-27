@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	height: 100vh;
+	background-image: url(background.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	 background-size: auto;
+    background-size: cover;
+	
+}
+
+#navbar {
+    background-color: #333; /* Black background color */
+
+    
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navigation {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+}
+
+.nav {
+	display: flex;
+	list-style: none;
+}
+
+.nav li a {
+	color: #000000;
+	text-decoration: none;
+	margin: 0 30px 0 0;
+	font-size: 18px;
+}
+
+.icon li a {
+	margin: 0 20px 0 0;
+}
+
+.logo {
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+	color: #00D4C6;
+}
+
+.link {
+	transition: .3s;
+}
+
+.link:hover {
+	color: #00D4C6;
+}
+
+
+.description {
+	top: 30%;
+	left: 10%;
+	width: 35%;
+	position: absolute;
+}
+.description-a {
+	top: 15%;
+	left: 10%;
+	width: 100%;
+	position: absolute;
+}
+
+
+.description h1 {
+	margin: 0;
+	font-size: 40px;
+	color: #fff;
+}
+
+.description p {
+	color: #fff;
+	font-size: 20px;
+}
+
+.shop {
+	background: none;
+	border: 2px solid #00D4C6;
+	text-decoration: none;
+	color: #00D4C6;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: .4s;
+}
+
+.shop:hover {
+	background: #00D4C6;
+	color: #fff;
+}
+
+
+.post-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social li {
+	padding: 0 15px 0 0;
+}
+
+.social li a {
+	color: #000000;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.post-nav {
+	display: flex;
+	list-style: none;
+}
+
+.post-nav li {
+	padding: 0 30px 0 0;
+}
+
+.post-nav li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+}
